@@ -41,7 +41,7 @@ pause() {
 show_task_format_info() {
     echo -e "${CYAN}═══════════════════════════════════════════════════════════════${DEFAULT}"
     echo -e "${GREEN}ФОРМАТ ЗАДАЧИ CRON:${DEFAULT}"
-    echo -e "${YELLOW}минуты часы дни месяцы дни_недели пользователь команда${DEFAULT}"
+    echo -e "${YELLOW}минуты часы дни месяцы дни_недели${DEFAULT}"
     echo
     echo -e "${GREEN}СПЕЦИАЛЬНЫЕ ЗНАЧЕНИЯ:${DEFAULT}"
     echo -e "  ${PURPLE}@reboot${DEFAULT}    - при каждом запуске системы"
